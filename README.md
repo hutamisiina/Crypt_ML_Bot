@@ -20,7 +20,7 @@ Original limit price (8 limits except volume)
 Original features (5 except default ATR)
 
 
-Binanceでの約定データのダウンロード、OHLCVの作成（ローソク足をバイナンスのAPI叩いて作ります）、richmanbtcさんのMLbotチュートリアル（https://github.com/richmanbtc/mlbot_tutorial?tab=readme-ov-file） を雛形として特徴量の生成とバックテストから実稼働まで一通りできるシステム群になります。細かいことはコードに日本語コメント書いてありますのでここでは botの挙動の流れを軽く説明します。
+Binanceでの約定データのダウンロード、OHLCVの作成（ローソク足をバイナンスのAPI叩いて作ります）、richmanbtcさんのMLbotチュートリアル（https://github.com/richmanbtc/mlbot_tutorial?tab=readme-ov-file)を雛形として特徴量の生成とバックテストから実稼働まで一通りできるシステム群になります。細かいことはコードに日本語コメント書いてありますのでここでは botの挙動の流れを軽く説明します。
 
 
 binance_ml_ws.py：メインロジック。後述のapis.pyにバイナンスのAPIを入力してws.pyを実行すると動きます。
